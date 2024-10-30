@@ -1,0 +1,12 @@
+{
+  "id": "$registered_data$%_dim_jobs_ct_tmp",
+  "name": "%_DIM_JOBS__ct__tmp",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "DIM_JOBS__ct__tmp",
+    "dbSchema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+    "dbName": "{{task.registered_data-gxch:REZA$_$%.database}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

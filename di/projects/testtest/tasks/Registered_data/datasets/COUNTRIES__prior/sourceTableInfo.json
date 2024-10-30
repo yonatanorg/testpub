@@ -1,0 +1,12 @@
+{
+  "id": "$registered_data$%_countries_prior",
+  "name": "%_COUNTRIES__prior",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "COUNTRIES__prior",
+    "dbSchema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+    "dbName": "{{task.registered_data-gxch:REZA$_$%.database}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

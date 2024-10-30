@@ -1,0 +1,15 @@
+{
+  "id": "departments_prior",
+  "name": "DEPARTMENTS__prior",
+  "type": "EXTERNAL_TABLE",
+  "inputDatasets": [
+    {
+      "datasetId": "$registered_data$%_departments_prior",
+      "name": "DEPARTMENTS__prior",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "registered_data-gxch",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}"
+    }
+  ]
+}

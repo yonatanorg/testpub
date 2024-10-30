@@ -1,0 +1,21 @@
+{
+  "id": "regions_current-gxco",
+  "name": "REGIONS__current",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "regions_current",
+      "name": "REGIONS__current",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "registered_data-gxch"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  }
+}

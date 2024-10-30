@@ -1,0 +1,12 @@
+{
+  "id": "$registered_data$%_jobs",
+  "name": "%_JOBS",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "JOBS",
+    "dbSchema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+    "dbName": "{{task.registered_data-gxch:REZA$_$%.database}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

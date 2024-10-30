@@ -1,0 +1,21 @@
+{
+  "id": "countries_prior-gxcp",
+  "name": "COUNTRIES__prior",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "countries_prior",
+      "name": "COUNTRIES__prior",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "registered_data-gxch"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  }
+}

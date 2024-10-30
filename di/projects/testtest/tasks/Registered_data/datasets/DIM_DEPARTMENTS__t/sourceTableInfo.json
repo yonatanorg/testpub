@@ -1,0 +1,12 @@
+{
+  "id": "$registered_data$%_dim_departments_t",
+  "name": "%_DIM_DEPARTMENTS__t",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "DIM_DEPARTMENTS__t",
+    "dbSchema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+    "dbName": "{{task.registered_data-gxch:REZA$_$%.database}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "job_history_current",
+  "name": "JOB_HISTORY__current",
+  "type": "EXTERNAL_TABLE",
+  "inputDatasets": [
+    {
+      "datasetId": "$registered_data$%_job_history_current",
+      "name": "JOB_HISTORY__current",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "registered_data-gxch",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}"
+    }
+  ]
+}

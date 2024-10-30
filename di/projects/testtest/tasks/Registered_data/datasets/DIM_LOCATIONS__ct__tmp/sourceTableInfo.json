@@ -1,0 +1,12 @@
+{
+  "id": "$registered_data$%_dim_locations_ct_tmp",
+  "name": "%_DIM_LOCATIONS__ct__tmp",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "DIM_LOCATIONS__ct__tmp",
+    "dbSchema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+    "dbName": "{{task.registered_data-gxch:REZA$_$%.database}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

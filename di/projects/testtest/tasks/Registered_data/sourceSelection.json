@@ -1,0 +1,230 @@
+{
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "ASSET_STATE__6722548b8d6a735740a01579",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_asset_state_6722548b8d6a735740a01579"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "ASSET_STATE__6722549cfa980e74377c5582",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_asset_state_6722549cfa980e74377c5582"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "ASSET_STATE__672254778d6a735740a0156c",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_asset_state_672254778d6a735740a0156c"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "COUNTRIES",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_countries"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "COUNTRIES__current",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_countries_current"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "COUNTRIES__prior",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_countries_prior"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "DEPARTMENTS",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_departments"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "DEPARTMENTS__current",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_departments_current"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "DEPARTMENTS__prior",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_departments_prior"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "DIM_DEPARTMENTS__ct__tmp",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_dim_departments_ct_tmp"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "DIM_DEPARTMENTS__t",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_dim_departments_t"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "DIM_JOBS__ct__tmp",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_dim_jobs_ct_tmp"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "DIM_JOBS__t",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_dim_jobs_t"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "DIM_LOCATIONS__ct__tmp",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_dim_locations_ct_tmp"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "DIM_LOCATIONS__t",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_dim_locations_t"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "EMPLOYEES",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_employees"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "EMPLOYEES__current",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_employees_current"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "EMPLOYEES__prior",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_employees_prior"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "FACT_EMPLOYEES__ct__tmp",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_fact_employees_ct_tmp"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "FACT_EMPLOYEES__t",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_fact_employees_t"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "JOB_HISTORY",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_job_history"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "JOB_HISTORY__current",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_job_history_current"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "JOB_HISTORY__prior",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_job_history_prior"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "JOBS",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_jobs"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "JOBS__current",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_jobs_current"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "JOBS__prior",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_jobs_prior"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "LOCATIONS",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_locations"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "LOCATIONS__current",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_locations_current"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "LOCATIONS__prior",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_locations_prior"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "REGIONS",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_regions"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "REGIONS__current",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_regions_current"
+    },
+    {
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}",
+      "name": "REGIONS__prior",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$%_regions_prior"
+    }
+  ]
+}
