@@ -1,0 +1,12 @@
+{
+  "id": "$registered_data$%_locations",
+  "name": "%_LOCATIONS",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "LOCATIONS",
+    "dbSchema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+    "dbName": "{{task.registered_data-gxch:REZA$_$%.database}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

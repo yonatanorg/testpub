@@ -1,0 +1,12 @@
+{
+  "id": "$registered_data$%_asset_state_6722548b8d6a735740a01579",
+  "name": "%_ASSET_STATE__6722548b8d6a735740a01579",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "ASSET_STATE__6722548b8d6a735740a01579",
+    "dbSchema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+    "dbName": "{{task.registered_data-gxch:REZA$_$%.database}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

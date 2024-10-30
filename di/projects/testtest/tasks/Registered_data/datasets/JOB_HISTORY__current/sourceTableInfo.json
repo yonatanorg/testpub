@@ -1,0 +1,12 @@
+{
+  "id": "$registered_data$%_job_history_current",
+  "name": "%_JOB_HISTORY__current",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "JOB_HISTORY__current",
+    "dbSchema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+    "dbName": "{{task.registered_data-gxch:REZA$_$%.database}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

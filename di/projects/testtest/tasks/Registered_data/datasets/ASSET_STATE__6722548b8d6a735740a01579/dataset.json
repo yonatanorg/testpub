@@ -1,0 +1,15 @@
+{
+  "id": "asset_state_6722548b8d6a735740a01579",
+  "name": "ASSET_STATE__6722548b8d6a735740a01579",
+  "type": "EXTERNAL_TABLE",
+  "inputDatasets": [
+    {
+      "datasetId": "$registered_data$%_asset_state_6722548b8d6a735740a01579",
+      "name": "ASSET_STATE__6722548b8d6a735740a01579",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "registered_data-gxch",
+      "schema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+      "database": "{{task.registered_data-gxch:REZA$_$%.database}}"
+    }
+  ]
+}

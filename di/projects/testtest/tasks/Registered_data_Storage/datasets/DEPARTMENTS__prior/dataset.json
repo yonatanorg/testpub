@@ -1,0 +1,21 @@
+{
+  "id": "departments_prior-gxcs",
+  "name": "DEPARTMENTS__prior",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "departments_prior",
+      "name": "DEPARTMENTS__prior",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "registered_data-gxch"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  }
+}

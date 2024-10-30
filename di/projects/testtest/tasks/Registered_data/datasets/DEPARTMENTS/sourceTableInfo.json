@@ -1,0 +1,12 @@
+{
+  "id": "$registered_data$%_departments",
+  "name": "%_DEPARTMENTS",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "DEPARTMENTS",
+    "dbSchema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+    "dbName": "{{task.registered_data-gxch:REZA$_$%.database}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

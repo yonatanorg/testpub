@@ -1,0 +1,12 @@
+{
+  "id": "$registered_data$%_employees_current",
+  "name": "%_EMPLOYEES__current",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "EMPLOYEES__current",
+    "dbSchema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+    "dbName": "{{task.registered_data-gxch:REZA$_$%.database}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

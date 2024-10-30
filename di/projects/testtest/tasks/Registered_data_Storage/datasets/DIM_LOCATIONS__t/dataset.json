@@ -1,0 +1,21 @@
+{
+  "id": "dim_locations_t-gxcy",
+  "name": "DIM_LOCATIONS__t",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "dim_locations_t",
+      "name": "DIM_LOCATIONS__t",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "registered_data-gxch"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  }
+}

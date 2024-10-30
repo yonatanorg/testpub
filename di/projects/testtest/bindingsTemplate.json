@@ -20,5 +20,15 @@
   "task-type.datamart.warehouseName": "",
   "task-type.datamart.warehouseSelectionMethod": "",
   "task-type.datamart.databaseName": "",
-  "task-type.datamart.databaseSelectionMethod": ""
+  "task-type.datamart.databaseSelectionMethod": "",
+  "task.registered_data-gxch.databaseName": "",
+  "task.registered_data-gxch.internalSchema": "",
+  "task.registered_data-gxch.taskSchema": "",
+  "task.registered_data-gxch:REZA$_$%.database": "",
+  "task.registered_data-gxch:REZA$_$%.schema": "",
+  "task.registered_data_storage-gxci.databaseName": "",
+  "task.registered_data_storage-gxci.internalSchema": "",
+  "task.registered_data_storage-gxci.taskSchema": "",
+  "task.registered_data_storage-gxci.warehouseName": "",
+  "task.registered_data_storage-gxci:null$_$%.schemaPattern": ""
 }

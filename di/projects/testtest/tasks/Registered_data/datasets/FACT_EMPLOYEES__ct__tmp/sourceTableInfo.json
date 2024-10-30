@@ -1,0 +1,12 @@
+{
+  "id": "$registered_data$%_fact_employees_ct_tmp",
+  "name": "%_FACT_EMPLOYEES__ct__tmp",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "FACT_EMPLOYEES__ct__tmp",
+    "dbSchema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+    "dbName": "{{task.registered_data-gxch:REZA$_$%.database}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

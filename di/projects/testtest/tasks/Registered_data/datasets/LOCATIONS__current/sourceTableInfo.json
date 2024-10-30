@@ -1,0 +1,12 @@
+{
+  "id": "$registered_data$%_locations_current",
+  "name": "%_LOCATIONS__current",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "LOCATIONS__current",
+    "dbSchema": "{{task.registered_data-gxch:REZA$_$%.schema}}",
+    "dbName": "{{task.registered_data-gxch:REZA$_$%.database}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}
