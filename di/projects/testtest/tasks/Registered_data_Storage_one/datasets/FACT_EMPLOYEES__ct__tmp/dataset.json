@@ -1,0 +1,21 @@
+{
+  "id": "fact_employees_ct_tmp-gxcc",
+  "name": "FACT_EMPLOYEES__ct__tmp",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "fact_employees_ct_tmp",
+      "name": "FACT_EMPLOYEES__ct__tmp",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "registered_data-gxch"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  }
+}
